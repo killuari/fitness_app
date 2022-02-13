@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_recipes"
-        android:name="com.example.fitness_app.ui.dashboard.DashboardFragment"
+        android:name="com.example.fitness_app.ui.dashboard.RecipesFragment"
         android:label="@string/title_recipes"
         tools:layout="@layout/fragment_recipes" />
 
