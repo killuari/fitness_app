@@ -51,11 +51,11 @@ public class MyDbHelper extends SQLiteOpenHelper {
         ContentValues cv = new ContentValues();
 
         //ADD RECIPE
-        cv.put(COLUMN_NAME, "");
-        cv.put(COLUMN_CALORIES, "");
-        cv.put(COLUMN_VARIANT, "");
-        cv.put(COLUMN_INGREDIENTS, "");
-        cv.put(COLUMN_AMOUNT, "");
+        cv.put(COLUMN_NAME, "chicken");
+        cv.put(COLUMN_CALORIES, "300");
+        cv.put(COLUMN_VARIANT, "dinner");
+        cv.put(COLUMN_INGREDIENTS, "chicken");
+        cv.put(COLUMN_AMOUNT, "280g");
         db.insert(TABLE_NAME, null, cv);
         //------
 
