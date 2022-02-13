@@ -60,11 +60,11 @@ public class MyDbHelper extends SQLiteOpenHelper {
         //------
 
         //ADD RECIPE
-        cv.put(COLUMN_NAME, "");
-        cv.put(COLUMN_CALORIES, "");
-        cv.put(COLUMN_VARIANT, "");
-        cv.put(COLUMN_INGREDIENTS, "");
-        cv.put(COLUMN_AMOUNT, "");
+        cv.put(COLUMN_NAME, "steak");
+        cv.put(COLUMN_CALORIES, "300");
+        cv.put(COLUMN_VARIANT, "dinner");
+        cv.put(COLUMN_INGREDIENTS, "beef");
+        cv.put(COLUMN_AMOUNT, "200");
         db.insert(TABLE_NAME, null, cv);
         //------
 
