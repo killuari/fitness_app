@@ -36,7 +36,7 @@ public class MyDbHelper extends SQLiteOpenHelper {
                         COLUMN_INGREDIENTS + " TEXT, " +
                         COLUMN_AMOUNT + " TEXT);";
         db.execSQL(query);
-
+        addRecipes();
     }
 
     @Override
